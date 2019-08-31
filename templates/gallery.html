@@ -1,0 +1,133 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gallery</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"> 
+	<link rel="stylesheet" href="/static/css/style.css"> 
+</head>
+
+<body>
+	<!-- Start Hero Carousel -->
+	<section class="hero is-large has-carousel">
+		<div id="carousel-demo" class="hero-carousel">
+			<div class="item-1">
+				<div class="card">
+					<div class="card-image">
+						<figure class="image is-16by9  is-covered">
+							<img
+								src="https://thelistenersclub.timothyjuddviolin.com/wp-content/uploads/sites/2/2014/02/a9bdd23f1d757d7e747d2c276dd4b782.jpg">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="item__title">
+							Mon titre 2
+						</div>
+						<div class="item__description">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item-2">
+
+				<div class="card">
+					<div class="card-image">
+						<figure class="image is-16by9  is-covered">
+							<img src="http://www.vinarijatonkovic.com/wp-content/uploads/2016/12/blog-liszt-1.jpg" />
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="item__title">
+							Mon titre 2
+						</div>
+						<div class="item__description">
+							Ici une petite description pour tester le slider
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="item-3">
+				<div class="card">
+					<div class="card-image">
+						<figure class="image is-16by9  is-covered">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Liszt_-_manuscript_of_Sonata_in_B_minor%2C_p._11.jpg" />
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="item__title">
+							Mon titre 2
+						</div>
+						<div class="item__description">
+							Ici une petite description pour tester le slider
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item-4">
+				<div class="card">
+					<div class="card-image">
+						<figure class="image is-16by9  is-covered">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Psalm_XVIII_Liszt_3.jpg" />
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="item__title">
+							Mon titre 2
+						</div>
+						<div class="item__description">
+							Ici une petite description pour tester le slider
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero-head">
+						<nav class="navbar is-transparent">
+						  <div class="container">
+							<div class="navbar-brand">
+							  <a class="navbar-item">
+								<a class="navbar-item" href='/'>Home</a>
+								<a class="navbar-item" href='/biography'>Biography</a> 
+                				<a class="navbar-item" href='/comments'>Comments</a> 
+							  </a>
+							  <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+								<span></span>
+								<span></span>
+								<span></span>
+							  </span>
+							</div>
+							<div id="navbarMenuHeroA" class="navbar-menu">
+							  <div class="navbar-end">
+									<a class="navbar-item" href='/compositions'>Compositions</a> 
+									<a class="navbar-item" href='/performance'>Aspects of Performance</a>     
+									<a class="navbar-item" href='/gallery'>Gallery</a>  
+								
+							  </div>
+							</div>
+						  </div>
+						</nav>
+					  
+		</div>
+		<div class="hero-body"></div>
+		<div class="hero-foot"></div>
+	</section>
+	<!-- End Hero Carousel -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+	<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 1
+		});
+	</script>
+
+	
+</body>
+
+</html>

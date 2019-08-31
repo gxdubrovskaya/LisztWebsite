@@ -1,0 +1,83 @@
+{% extends "index.html" %}
+{% block content %} 
+
+<section class="section">
+  <div class="container">
+    <div class="card comment-card">
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content">
+          <p class="title is-4">
+            <div class="field">
+              <label class="label">Username</label>
+              <div class="control has-icons-left">
+                <input id="nameInput" class="input" type="text" placeholder="Username" value="">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+            </div>
+          </p>
+          <p class="subtitle is-6">
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input id="emailInput" class="input" type="email" placeholder="Email input" value="">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="field">
+          <label class="label">Comment</label>
+          <div class="control">
+            <textarea id="commentInput" class="textarea comment-error" placeholder="Comment"></textarea>
+          </div>
+        </div>
+        <div class="field is-grouped">
+          <div class="control">
+            <button id="submit-comment" class="button is-warning">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    {% for comment in comments %}
+    <div class="card">
+      <div class="card-content">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/128x128.png">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p class="title is-4"> {{ comment.username }} </p>
+              <p class="subtitle is-6">{{ comment.email }}</p>
+              <div class="content">
+                {{ comment.comment }}
+              </div>
+            </div>
+          </div>
+          <div class="media-right">
+            <button class="delete comment-delete-btn" value='{{ comment.id }}'></button>
+          </div>
+        </article>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

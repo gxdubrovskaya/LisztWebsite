@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+      <title>Franz Liszt</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"> 
+      <link rel="stylesheet" href="/static/css/style.css"> 
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+      <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+    <body>
+
+         <!-- http://major-world.com/0-img3/2011/11/Liszt_Ferenc-1.jpg" -->
+         <nav class="navbar theme-dark-green">          
+            <div class="navbar-brand">              
+               <a class="navbar-item light-text" href='/'>Home</a>        
+             </div> 
+             <div class="navbar-start">
+                <a class="navbar-item light-text" href='/biography'>Biography</a> 
+                <a class="navbar-item light-text" href='/comments'>Comments</a> 
+             </div>
+              <div class="navbar-end">
+               <a class="navbar-item light-text" href='/compositions'>Compositions</a> 
+               <a class="navbar-item light-text" href='/performance'>Aspects of Performance</a>     
+               <a class="navbar-item light-text" href='/gallery'>Gallery</a>    
+            </div>    
+           </nav>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+           <script src="/static/js/main.js"></script>
+        <div class="background-color-all">
+            {% block content %}
+            {% endblock %}
+        </div>
+        
+    </body>
+ </html>

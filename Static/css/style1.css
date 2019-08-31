@@ -1,0 +1,43 @@
+.mainpage {
+    /* background-image: url("http://i68.tinypic.com/o5zxj9.jpg");  */
+    height: 900px;
+    width: 727px;
+}
+
+.mainleftblock {
+    background-color: #ffffff;
+    width: 180;
+    height: 500;
+    text-align: center;
+    position:relative;
+    bottom: 20px;
+    left: 180px;
+    padding: 20px;
+}
+
+.mainrightblock {
+    background-color: #ffffff;
+    width: 180;
+    height: 500;
+    text-align: center;
+    position: relative;
+    right: 180px;
+    bottom: 20px;
+    padding: 20px
+}
+
+/* /* .navbar {
+    background-color: #C0C0C0 !important */
+} */
+
+.setTitles {
+    font-size: 20px;
+    font-family: cursive
+}
+.etudeTitles {
+    font-size: 12px;
+    font-family: cursive
+}
+/* 
+.container {
+    /* background-image: url('http://i68.tinypic.com/256u6pk.jpg'); 

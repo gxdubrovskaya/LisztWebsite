@@ -1,0 +1,37 @@
+{% extends "index.html" %}
+{% block content %} 
+
+<section class="section etude-section-background">
+<div class="container etude-text-background">
+  <div class="columns">
+    <div class="column is-three-fifths is-offset-one-fifth etude-main corners home-page-text">
+          {% for etudes in Liszt_Etudes %}
+            <h1 class="setTitles">Set Title: {{ etudes.Set }}</h1>
+
+          {% for etude in etudes.Etudes %}
+              <div class = "etudeTitles">{{ etude }}</div>
+            {% endfor %}
+          {% endfor %}
+      <div>
+        <h1 class="setTitles">Three Concert Etudes</h1>
+        <h2 class="etudeTitles">Il Lamento <br>La Leggiereza<br>Un Sospiro - one of the most popular and challenging Concert Etudes and the most famous, intended for showing off Liszt's skill in fingerwork</h2>
+        <h1 class="setTitles">Two Concert Etudes</h1>
+            <h2 class="etudeTitles">Waldesrauschen<br>
+                    Gnomenreigen, a softer piece which mimicks gnomes dancing
+            </h2>
+      </div>
+    </div>  
+  </div>
+  </div>
+</section>
+<!-- videos -->
+<section class="section">
+
+</section>
+
+</div>
+</div>
+
+      
+
+{% endblock %}

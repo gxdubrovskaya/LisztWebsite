@@ -1,0 +1,191 @@
+.hero-image-background {    
+    background-image: url('https://images.pexels.com/photos/2128249/pexels-photo-2128249.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-position: center center;
+    background-repeat:  repeat;
+    background-size:  cover;
+}
+.home-title-section {
+    text-align: center;
+    background: white;
+}
+.etude-section-background {
+    background-image: url('http://i68.tinypic.com/256u6pk.jpg')
+}
+
+.body-color {
+    background-image: url('https://www.historicpages.com/heads/1779pac.jpg');
+}
+
+.home-page-text {
+    background-color: #CDA34F;
+    font-size: 18px;
+}
+
+.composition-text {
+    text-align: center;
+}
+
+.home-text-style {
+    text-shadow:
+    -1px -1px 0 #ffffff
+     1px -1px 0 #ffffff,
+     -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff,
+}
+
+.paper-color-part {
+    background-color: #f4e0a3
+}
+
+.etude-section-background {
+    background-image: url('http://musikforskning.se/stm-sjm/sites/default/files/Ill%201.gif')
+}
+
+
+.setTitles {
+    text-align: center;
+    color: #000000;
+    font-size: 20px !important;
+}
+
+.etudeTitles {
+    text-align: center;
+    color : #555555;
+
+}
+
+.etude-main {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.bg-one {
+    background-color: #f1e5a7;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.bg-two {
+    background-image: url('https://previews.123rf.com/images/ke77kz/ke77kz1605/ke77kz160500069/58625412-grunge-paper-background-natural-old-paper-texture-for-the-design-.jpg');
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bg-three {
+    background-color:#bbc4fd;
+    border-radius: 0px !important; 
+    padding: 10px;
+}
+
+.bg-four {
+    background-color: #bd9092;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bg-banner {
+    background-image: url('https://previews.123rf.com/images/ke77kz/ke77kz1605/ke77kz160500069/58625412-grunge-paper-background-natural-old-paper-texture-for-the-design-.jpg');
+}
+
+.bgcomp {
+    background-color: #f1e5a7;
+}
+
+.video-sizing {
+    width : 100%;
+    height: 250px;
+}
+
+.card-size {
+    height: 200px;
+}
+.padding-sides {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.card-format {
+    padding: 3% !important;
+    margin-bottom: 50px !important;
+
+}
+
+.topmargins {
+    margin-top: 20px;
+}
+
+.background-color-all {
+    background-color: #E9E7DA
+}
+
+.score-background {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/20/11/05/music-2661329_960_720.jpg');
+}
+
+.smaller-font {
+    font-size: 13px;
+}
+
+.gold-theme-color {
+    background-color: #CDA34F;
+}
+
+body {
+    color: #373F27 !important;
+}
+.corners {
+    border-radius: 11px;
+}
+
+.titletext {
+    text-align: center;
+}
+
+.score-on-chair {
+    background-image: url('https://unsplash.com/photos/IgxQvOPgfqY');
+}
+
+.theme-dark-green {
+    background-color: #636b46 !important;
+}
+
+.theme-green {
+    background-color: #373F27 !important;
+}
+
+.light-text {
+    color :#E9E7DA !important;
+}
+
+
+.gold-text {
+    color: #CDA34F !important;
+}
+.vl {
+    position: absolute;
+    border-left: 2px solid green;
+    height: 5000px;
+    left: 50%;
+    top: 5;
+  }
+
+
+  .theme-green-text {
+    color: #373F27 !important;
+  }
+  .background-color-all {
+    background-color: #E9E7DA;
+  }
+
+  .background-color-some {
+    background-color:#f0ebda;
+  }
+
+  .lighter-theme{
+    background-color:#e0d1b1;
+  }
+
+  .padding {
+      padding: 5%;
+  }
